@@ -25,7 +25,7 @@ This is a simple To-Do List Manager implemented in JavaScript, featuring functio
 2. Run the JavaScript file:
 
     ```bash
-    node todolist.js
+    node todolist-manager.js
     ```
 
 ## Example
