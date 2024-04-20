@@ -1,5 +1,3 @@
-// models/Task.js
-
 const mongoose = require('mongoose');
 
 const taskSchema = new mongoose.Schema({
@@ -7,5 +5,5 @@ const taskSchema = new mongoose.Schema({
     dueDate: { type: Date, default: Date.now },
     completed: { type: Boolean, default: false }
 });
-
-module.exports = mongoose.model('Task', taskSchema);
+const taskModel = mongoose.model('Task', taskSchema);
+module.exports = taskModel;
